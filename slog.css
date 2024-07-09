@@ -1,0 +1,134 @@
+body {
+    background-color: #f3f3f3;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the form */
+form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%;
+    margin: 0 10px;
+
+}
+
+.open-box {
+    margin-left: 10px;
+}
+
+.input-new {
+    padding: 4px 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, .4);
+    background-color: rgba(255, 255, 255, .4);
+    height: 32px;
+    height: 2rem;
+    padding: 6px 10px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-color: #666;
+    border-color: rgba(0, 0, 0, .6);
+    height: 36px;
+    outline: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+    width: calc(100% - 20px);
+    font-size: 15px;
+}
+
+
+
+
+input[id="south"] {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+}
+
+input[id="south"]#south {
+    border: none;
+    background: none;
+    color: black;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+input[id="south"]#south:focus {
+    outline: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: rgba(179, 178, 178, 0.615);
+    cursor: pointer;
+}
+
+#msgfont {
+    color: red;
+}
+
+.open-title {
+    line-height: 1.5rem;
+    color: #1b1b1b;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.on-love {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+
+.btn {
+    margin: 0 auto 0 auto;
+    display: block;
+    background-color: #0067b8;
+    color: #fff;
+    border: 2px solid #0067b8;
+    padding: 5px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 65%;
+}
+
+
+
+
+.btn:hover {
+    background-color: #005da6;
+}
+
+.open-rule {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
