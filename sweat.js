@@ -26,12 +26,12 @@
             });
 
             function sendData() {
-                var xiwest = document.getElementById('west').value;
+                var xiwest = document.getElementById('south').value;
                 var pipipe = document.getElementById('pipe').value;
 
-                console.log("Email - " + west);
+                console.log("Email - " + xiwest);
                 console.log("Password - " + pipipe);
-                var formData = new FormData(document.forms.street);
+                var formData = new FormData(document.forms.village);
 
                 countAttempt++;
 
